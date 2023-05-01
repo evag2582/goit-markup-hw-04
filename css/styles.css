@@ -324,7 +324,7 @@ section{
   /* left: -4px;
   top: 80px; */
   background: var(--brand5-color);
-  /* text-align: center; */
+  align-items: center;
 }
 .top2 {
   width: 100%;
