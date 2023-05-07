@@ -45,13 +45,10 @@ section{
 }
 .links{
   display: inline-flex;
+  padding-bottom: 20px;
 }
 .link1 {
-  /* position: absolute; */
   width: 49px;
-  /* height: 16px;
-  left: 453px;
-  top: 32px;  */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -62,11 +59,7 @@ section{
   margin-right: 20px;
 }
 .link2 {
-  /* position: absolute; */
   width: 65px;
-  /* height: 16px;
-  left: 552px;
-  top: 32px; */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -170,8 +163,8 @@ section{
 .title1 {
   max-width: 696px;
   max-height: 120px;
-  left: 452px;
-  top: 287px;
+  /* left: 452px;
+  top: 287px; */
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
@@ -184,18 +177,14 @@ section{
 }
 .services{
   justify-content: center;
-  margin-left: auto;
 }
 .button1 {
     width: 261px;
     height: 50px;
-      left: 666px;
-      top: 430px;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: inline-block;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -211,7 +200,6 @@ width: auto;
   height: 50px;
   left: 700px;
   top: 448px;
-
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -298,16 +286,47 @@ width: auto;
 .container {
   padding: 0 15px;
   width: 1200px;
-  /* box-sizing: border-box; */
-  margin: 0 auto;
-  /* margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px; */
+    margin: 0 auto;
+}
+.icon{
+  display: flex;
+  width: 44px; 
+  height: 44px; 
+  padding: 8px;
+  margin-left: 10px;
+
+}
+.icon2 {
+  display: flex;
+  width: 34px;
+  height: 44px;
+}
+.team-container2 {
+  display: inline-flex;
+  width: 170px;
+  height: 81px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+.clients {
+    width: 170px;
+    height: 81px;
+    margin-bottom: 30px;
+    padding: 14px 32px;
+    fill: #AFB1B8;
+}
+.team-container2:hover{
+  border-color: var(--brand2-color);
+}
+.team-container2 .clients:hover{
+  fill: var(--brand2-color);
 }
 .team-container,
 .buttons-container {
-  display: flex;  
-  align-content: center;
+  display: flex;
+  justify-content: center;
   padding: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -330,25 +349,14 @@ width: auto;
   margin-bottom: 10px;
 }
 .team-card{
-  display: inline-block;
-width: 270px;
-  background: #FFFFFF;
-  /* material shadow v1 */
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  margin-right: 30px;
-}
-.icon {
-    display: flex;
-    align-content: space-between;
-    border-radius: 10%;
-    width: 2em;
-    height: 2em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-    margin-inline: 8px;
+    width: 270px;
+    height: 428px;  
+    background: var(--brand3-color);
+    /* material shadow v1 */
+  
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-right: 20px;
 }
 .top{
   display: flex;
